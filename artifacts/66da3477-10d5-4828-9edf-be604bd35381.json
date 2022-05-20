@@ -1,0 +1,16 @@
+{
+  "kind": "policyAssignment",
+  "properties": {
+    "displayName": "Virtual machines should be connected to a specified workspace",
+    "dependsOn": [],
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/f47b5582-33ec-4c5c-87c0-b010a6b2e917",
+    "parameters": {
+      "logAnalyticsWorkspaceId": {
+        "value": "[parameters('virtualmachinesshouldbeconnectedtoaspecifiedworkspace_logAnalyticsWorkspaceId')]"
+      },
+      "effect": {
+        "value": "[parameters('virtualmachinesshouldbeconnectedtoaspecifiedworkspace_effect')]"
+      }
+    }
+  }
+}
