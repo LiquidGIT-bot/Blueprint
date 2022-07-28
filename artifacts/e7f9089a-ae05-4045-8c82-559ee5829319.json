@@ -1,0 +1,13 @@
+{
+  "kind": "policyAssignment",
+  "properties": {
+    "displayName": "MFA should be enabled accounts with write permissions on your subscription",
+    "dependsOn": [],
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9297c21d-2ed6-4474-b48f-163f75654ce3",
+    "parameters": {
+      "effect": {
+        "value": "[parameters('mFAshouldbeenabledaccountswithwritepermissionsonyoursubscription_effect')]"
+      }
+    }
+  }
+}
